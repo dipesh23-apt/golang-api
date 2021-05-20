@@ -161,7 +161,9 @@ func deleteUser(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Successfully deleted the row with id= %s", param["id"])
 }
 func updateUser(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json")
+	//Will Update accordingly,as of now it isTemporary
+	
+	/*w.Header().Set("Content-Type", "application/json")
 	param := mux.Vars(r)
 	b := DB.Find(&users).RowsAffected
 	i, _ := strconv.ParseInt(param["id"], 10, 64)
@@ -179,4 +181,5 @@ func updateUser(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	fmt.Println(a)
+	*/
 }
