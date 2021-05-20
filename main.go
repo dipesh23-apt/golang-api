@@ -144,7 +144,7 @@ func main() {
 	r.HandleFunc("/api/v1/user/{id}", getUser).Methods("GET")
 	r.HandleFunc("/api/v1/user/fetch", getallUsers).Methods("POST")
 	r.HandleFunc("/api/v1/user/create", createUser).Methods("POST")
-	r.HandleFunc("/api/v1/user/{id}", updateUser).Methods("PUT")
+	//r.HandleFunc("/api/v1/user/{id}", updateUser).Methods("PUT")
 	r.HandleFunc("/api/v1/user/{id}", deleteUser).Methods("DELETE")
 	http.Handle("/", r)
 	fmt.Println("Running on server 8080")
