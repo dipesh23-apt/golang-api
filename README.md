@@ -1,4 +1,4 @@
-# golang-api
+# golang_api
 
 ### CREATING a user(json data)<br/>
 ![Postman_c7stvBP1bK](https://user-images.githubusercontent.com/80080241/118933199-8be86c80-b966-11eb-94d7-61aeef5acd74.png)<br/>
