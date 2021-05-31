@@ -1,9 +1,5 @@
 package models
 
-import (
-	"gorm.io/gorm"
-)
-
 type User struct {
 	Id         uint    `gorm:"primary key" json:"id"`
 	CreatedAt  int64   `"autoCreateTime" json:"-"`
