@@ -10,7 +10,7 @@ type User struct {
 	Phone      string  `json:"phone" validate:"required"`
 	Height     float32 `json:"height" validate:"required"`
 	Gender     string  `json:"gender" validate:"required"`
-	Password   string  `json:"-" validate:"required"`
+	Password   string  `json:"password" validate:"required"`
 	Married    bool    `json:"married" validate:"required"`
 }
 
